@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Professional Quiz App</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+  <div class="quiz-container" id="quiz">
+    <div class="quiz-header">
+      <h1 class="quiz-title">Knowledge Quiz</h1>
+      <div class="progress-container">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+      <div class="question-counter" id="question-counter">Question 1 of 9</div>
+    </div>
+    
+    <h2 id="question">Loading question...</h2>
+    
+    <ul id="answer-list">
+      <li><button class="answer-btn" data-index="0"></button></li>
+      <li><button class="answer-btn" data-index="1"></button></li>
+      <li><button class="answer-btn" data-index="2"></button></li>
+      <li><button class="answer-btn" data-index="3"></button></li>
+    </ul>
+    
+    <div class="feedback-container">
+      <p id="feedback"></p>
+    </div>
+    
+    <div style="text-align: center;">
+      <button id="next-btn">Next Question</button>
+    </div>
+    
+    <div class="score-container">
+      <p id="score"></p>
+    </div>
+  </div>
+
+  <script src="script1.js"></script>
+</body>
+</html>
