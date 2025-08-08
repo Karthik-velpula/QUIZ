@@ -12,4 +12,4 @@ Fully responsive design
 
 HTML5
 CSS3 (with gradient effects and transitions)
-JavaScript (DOM manipulation and logic)
+JavaScript (DOM manipulation and logic
